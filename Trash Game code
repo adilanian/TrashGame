@@ -1,1 +1,59 @@
-
+module trashgame {
+}
+*
+*/
+public class Player {
+  private String name; //Name of player
+  private Hand myHand;
+  
+  /**
+  * makeMove - make a single move for
+  * a player.
+  *
+  * In the move the player will
+  * draw cards during their turn.
+  *
+  * In the move the player will
+  *replace the card in his hand with this card.
+  *
+  * If the card is not possible to place
+  * put it in the trash.
+  */
+  
+  public class Game {
+  
+  /**
+  * Each game will have a game number to represent the round.
+  */
+  
+  public class Hand {
+  
+  /**
+  * Each game will have multiple hands during each round.
+  */
+  
+  Public class Card Collection {
+  
+  /**
+  * Each player will have a collection of cards
+  * to show the cards that each player has within their own stack.
+  */
+  
+  public class Stock {
+  
+  /**
+  * Each player will have a stock to show the remaining cards that are face down.
+  */
+  
+  public class Trash Stock {
+  
+  /** Each game will have a trash stock to show where the cards are going to be placed
+  * once they end up in the trash pile.
+  *
+  * Jack or Queen cards also automatically go in the trash stack.
+  */
+  
+  public class Deck {
+  
+  /** Each game will have a deck where the cards are drawn.
+  */
